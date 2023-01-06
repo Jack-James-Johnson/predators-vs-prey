@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8a6e0263-2178-f94e-3cd2-db51eafd7079}</ProjectGuid>
+    <ProjectGuid>{03de3550-87b3-0d20-af90-b055eae7e2ca}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.TestRunner</AssemblyName>
@@ -407,7 +407,7 @@
         <HintPath>/Applications/Unity/Hub/Editor/2021.2.16f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>/Users/jackjohnson/Predators Vs Prey/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>/Users/jackjohnson/PredatorsVsPrey/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
