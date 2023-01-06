@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class CameraScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Camera mainView;
+    public  GameObject Stage;
+    void Awake()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        float height = Stage.transform.localScale.x;
+        mainView.orthographicSize = height/2;
     }
 }
+

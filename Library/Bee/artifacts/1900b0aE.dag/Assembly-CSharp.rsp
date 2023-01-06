@@ -345,6 +345,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GameScripts/CameraScript.cs"
+"Assets/Scripts/GameScripts/CreatureBehaviour.cs"
 "Assets/Scripts/GameScripts/CreatureSpawner.cs"
 "Assets/Scripts/GameScripts/SliderDisplay.cs"
 "Assets/Scripts/MenuScripts/ExitGame.cs"

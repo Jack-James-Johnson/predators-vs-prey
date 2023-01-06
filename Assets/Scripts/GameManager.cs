@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public float AverageFitnessLevel;
     public float MutationIntensity;
     public int CreatureCap;
-    public Button highGraphics;
+    public bool HighGraphics;
 
     public static GameManager Instance;
     private void Awake()
@@ -24,5 +24,15 @@ public class GameManager : MonoBehaviour
         this.CreatureCap = Convert.ToInt32(GameObject.Find("Cap").GetComponent<Slider>().value);
         this.MutationIntensity =GameObject.Find("Mutation").GetComponent<Slider>().value;
         
+    }
+    public void toggleGraphics(bool graphics)
+    {
+        this.HighGraphics = graphics;
+    }
+    public enum stateType
+    {
+        MENU,
+        PAUSED,
+        ACTIVE
     }
 }
