@@ -1,0 +1,498 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1672964929314764, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672964929315777, "dur": 13996, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672964929329884, "dur": 27550, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672964929357452, "dur": 460179, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672964929817640, "dur": 7114179, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672964936931856, "dur": 11318, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672964951679558, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672964951680040, "dur": 3904, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672964951683947, "dur": 29744, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672964951713696, "dur": 431808, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672964952145508, "dur": 69592, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672964952215103, "dur": 1152, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672964952216807, "dur": 23, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1672964951907120, "dur": 195643, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672964951907843, "dur": 123052, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672964952083849, "dur": 6334, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672964952090185, "dur": 12572, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672964952091416, "dur": 10948, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672964952108074, "dur": 1166, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672964952106318, "dur": 2948, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672964952216896, "dur": 3106, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1672964952162924, "dur":1113, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952164044, "dur":707, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1672964952164765, "dur":10, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1672964952164775, "dur":90, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1672964952164870, "dur":193, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952165063, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203114, "dur":31, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203145, "dur":43, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203188, "dur":20, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203208, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203231, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203241, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203261, "dur":18, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203279, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203300, "dur":22, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203322, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203342, "dur":13, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203355, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203375, "dur":11, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203386, "dur":39, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203425, "dur":11, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203436, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203456, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203462, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952203463, "dur":1502, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1672964952164796, "dur":272, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672964952165070, "dur":2429, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672964952167500, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672964952167503, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672964952167723, "dur":75, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672964952167800, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672964952167808, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672964952167856, "dur":214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672964952168070, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1672964952168081, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672964952168088, "dur":192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1672964952168289, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1672964952168298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672964952168306, "dur":240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1672964952168625, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1672964952168636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672964952168638, "dur":304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1672964952168951, "dur":24898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672964952193850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672964952193852, "dur":183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672964952194188, "dur":6033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672964952200222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672964952200224, "dur":232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672964952200464, "dur":846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672964952201310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672964952201312, "dur":185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672964952201502, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1672964952201510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672964952201511, "dur":242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1672964952201838, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1672964952201929, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672964952201953, "dur":260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1672964952202255, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1672964952202281, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672964952202307, "dur":177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1672964952202489, "dur":643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672964952164806, "dur":266, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672964952165072, "dur":2451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672964952167523, "dur":850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1672964952168374, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672964952168376, "dur":239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1672964952168623, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1672964952168633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672964952168635, "dur":252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1672964952168899, "dur":12119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952181019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672964952181034, "dur":185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952181228, "dur":9384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952190614, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672964952190615, "dur":168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952190789, "dur":1661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952192451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672964952192452, "dur":159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952192619, "dur":1348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952193968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672964952193970, "dur":483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952194507, "dur":3384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952197892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672964952197906, "dur":297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952198210, "dur":1226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952199445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672964952199447, "dur":286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952199737, "dur":585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952200323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672964952200325, "dur":208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952200552, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952200560, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672964952200562, "dur":175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952200744, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952201059, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672964952201061, "dur":179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672964952201246, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1672964952201256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672964952201257, "dur":481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1672964952201832, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1672964952202098, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672964952202184, "dur":240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1672964952202458, "dur":671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952164814, "dur":261, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952165075, "dur":2432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952167509, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1672964952167532, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952168072, "dur":400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1672964952168482, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1672964952168499, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952168569, "dur":397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1672964952168975, "dur":5764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey.exe" }}
+,{ "pid":12345, "tid":3, "ts":1672964952174740, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952174741, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey.exe" }}
+,{ "pid":12345, "tid":3, "ts":1672964952174885, "dur":3944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952178830, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952178831, "dur":126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952178961, "dur":3788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952182750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952182752, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952182922, "dur":2437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952185376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952185378, "dur":133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952185515, "dur":854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952186370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952186371, "dur":341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952186717, "dur":704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952187434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952187436, "dur":133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952187575, "dur":1947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952189523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952189525, "dur":134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952189664, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952189953, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952189955, "dur":318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952190281, "dur":3886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952194169, "dur":48, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952194371, "dur":294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952194688, "dur":1018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952195707, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952195708, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952195852, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952195861, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952195867, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952196041, "dur":3343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952199385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952199387, "dur":148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952199543, "dur":564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952200108, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952200110, "dur":157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952200274, "dur":553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952200828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952200830, "dur":155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952200991, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952201261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952201263, "dur":456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672964952201766, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1672964952201829, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952201929, "dur":297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1672964952202269, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1672964952202293, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672964952202318, "dur":206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1672964952202529, "dur":580, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952164822, "dur":255, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952165077, "dur":2445, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952167522, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1672964952167560, "dur":35, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952167797, "dur":473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1672964952168280, "dur":534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1672964952168815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952168817, "dur":186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1672964952169011, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1672964952169020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952169067, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1672964952169239, "dur":1125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952170365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952170407, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952170548, "dur":678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952171227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952171241, "dur":153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952171402, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952171452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952171453, "dur":145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952171605, "dur":2238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952173844, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952173846, "dur":166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952174020, "dur":8417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952182438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952182440, "dur":152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952182599, "dur":2404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952185004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952185006, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952185137, "dur":2185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952187323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952187325, "dur":153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952187483, "dur":2844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952190328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952190330, "dur":123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952190458, "dur":6462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952196921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952196923, "dur":138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952197068, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952197077, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952197078, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952197223, "dur":736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952197960, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952197961, "dur":279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952198272, "dur":1198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952199470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952199472, "dur":190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952199669, "dur":832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952200502, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952200535, "dur":131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952200671, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952200970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952200972, "dur":143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672964952201165, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1672964952201181, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952201190, "dur":277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1672964952201499, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1672964952201507, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952201508, "dur":256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1672964952201844, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1672964952201900, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952201965, "dur":270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1672964952202274, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1672964952202297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672964952202307, "dur":172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1672964952202485, "dur":646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952164831, "dur":248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952165079, "dur":2446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952167525, "dur":807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1672964952168333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952168335, "dur":191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1672964952168566, "dur":560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1672964952169126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952169128, "dur":188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1672964952169328, "dur":8647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952177977, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952177978, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952178104, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952178110, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952178111, "dur":115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952178230, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952178236, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952178237, "dur":108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952178349, "dur":4354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952182704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952182706, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952182854, "dur":3518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952186373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952186376, "dur":423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952186805, "dur":737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952187543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952187545, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952187680, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952187687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952187688, "dur":157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952187849, "dur":2081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952189944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952189945, "dur":331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952190283, "dur":2451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952192735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952192748, "dur":202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952192956, "dur":1170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952194127, "dur":80, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952194253, "dur":283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952194615, "dur":742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952195358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952195359, "dur":145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952195508, "dur":1273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952196782, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952196784, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952196940, "dur":953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952197915, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952197917, "dur":247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952198172, "dur":899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952199073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952199074, "dur":145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952199226, "dur":1097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952200324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952200325, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952200505, "dur":551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952201057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952201060, "dur":334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1672964952201401, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1672964952201408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952201409, "dur":129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1672964952201544, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1672964952201552, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952201553, "dur":230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1672964952201870, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1672964952201971, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672964952202001, "dur":315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1672964952202348, "dur":782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952164840, "dur":241, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952165081, "dur":2445, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952167526, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1672964952168166, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952168212, "dur":361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1672964952168606, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1672964952168899, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952168900, "dur":191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1672964952169099, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1672964952169108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952169164, "dur":219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1672964952169395, "dur":3069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952172465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952172467, "dur":153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952172627, "dur":1337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952173965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952173967, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952174138, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952174147, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952174148, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952174306, "dur":8162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952182469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952182471, "dur":191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952182670, "dur":1621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952184292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952184294, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952184466, "dur":1705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952186172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952186174, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952186319, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952186338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952186340, "dur":205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952186551, "dur":4053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952190605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952190606, "dur":199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952190809, "dur":2543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952193353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952193354, "dur":120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952193481, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952193490, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952193491, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952193639, "dur":717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952194357, "dur":55, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952194462, "dur":282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952194749, "dur":1097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952195847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952195848, "dur":164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952196020, "dur":1427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952197448, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952197450, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952197585, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952197955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952197957, "dur":313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952198281, "dur":1701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952199983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952199985, "dur":175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952200166, "dur":855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952201022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952201023, "dur":197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672964952201226, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1672964952201234, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952201235, "dur":240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1672964952201483, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1672964952201491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952201493, "dur":315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1672964952201917, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1672964952201960, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672964952201961, "dur":292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1672964952202286, "dur":832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672964952164860, "dur":223, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672964952165083, "dur":2419, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672964952167504, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1672964952167529, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672964952168014, "dur":204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1672964952168229, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1672964952168713, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672964952168714, "dur":204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1672964952168926, "dur":6023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1672964952174950, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672964952174951, "dur":134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1672964952175091, "dur":2206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952177298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672964952177300, "dur":120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952177425, "dur":4427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952181853, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672964952181855, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952181976, "dur":4423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952186400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672964952186402, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952186547, "dur":7687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952194235, "dur":45, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672964952194442, "dur":227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952194680, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952195236, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672964952195237, "dur":168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952195412, "dur":1012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952196425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672964952196427, "dur":146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952196580, "dur":3544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952200125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672964952200127, "dur":221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952200357, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952200717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672964952200719, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952200879, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952200886, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672964952200887, "dur":149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952201042, "dur":1376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952202419, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672964952202474, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672964952202616, "dur":494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952164866, "dur":220, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952165086, "dur":2418, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952167507, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1672964952167538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952167979, "dur":226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1672964952168213, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1672964952168226, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952168228, "dur":433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1672964952168671, "dur":1767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952170439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952170482, "dur":139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952170629, "dur":3493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952174123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952174125, "dur":156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952174290, "dur":1645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952175936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952175938, "dur":162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952176107, "dur":10530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952186638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952186640, "dur":213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952186858, "dur":775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952187634, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952187635, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952187768, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952187775, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952187776, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952187899, "dur":1557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952189457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952189460, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952189589, "dur":1848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952191438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952191440, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952191587, "dur":1218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952192806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952192808, "dur":159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952192972, "dur":1946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952194919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952194921, "dur":142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952195092, "dur":1900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952196993, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952196995, "dur":150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952197151, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952197160, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952197162, "dur":170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952197340, "dur":588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952197929, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952197930, "dur":282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952198219, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952198227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952198233, "dur":158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952198398, "dur":1104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952199503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952199505, "dur":159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952199670, "dur":777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952200448, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952200449, "dur":171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952200627, "dur":2354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles predVsPrey/Predators Vs Prey_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952202982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672964952202984, "dur":111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"predVsPrey/Predators Vs Prey_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672964952203100, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1672964952203100, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672964952205833, "dur":365, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1672964952220029, "dur": 312, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672964952216769, "dur": 3577, "ph": "X", "name": "Write chrome-trace events", "args": {} },

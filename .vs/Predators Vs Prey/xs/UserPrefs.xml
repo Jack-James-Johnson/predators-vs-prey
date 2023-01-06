@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{54B919DC-E20A-896A-C210-B0AA29AA0D9C}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/movement.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Main_Menu.cs" Line="1" Column="1" />
+      <File FileName="Assets/sci.cs" Line="8" Column="37" />
+      <File FileName="Assets/Scripts/movement.cs" Line="24" Column="70" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Predators Vs Prey" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b0bb5d3c-8910-4528-a8fb-c843aa891e96" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
