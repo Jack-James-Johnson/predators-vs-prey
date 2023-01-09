@@ -4092,7 +4092,7 @@ MonoBehaviour:
   AverageFitnessLevel: 0
   MutationIntensity: 0
   CreatureCap: 0
-  HighGraphics: 0
+  HighGraphics: 1
 --- !u!4 &1233766895
 Transform:
   m_ObjectHideFlags: 0
