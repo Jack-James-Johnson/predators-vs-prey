@@ -21,20 +21,15 @@ public class CreatureBehaviour : MonoBehaviour
     [SerializeField]
     private float step;
     private state currentState = state.IDLE;
-    void Update()
+    void Awake()
     {
-        if(Input.GetKey(KeyCode.W))
+        speed = Random.value*10;
+    }
+    void Update()
+    {  
+        for (float angle = -Mathf.PI; angle < Mathf.PI; angle+=Mathf.PI/step)
         {
-            transform.Translate(Vector3.forward*speed*Time.deltaTime);
-        }
-        
-        if(Input.GetKey(KeyCode.A))
-        {
-            transform.Rotate(new Vector3(0,-1,0)*Time.deltaTime*step,Space.Self);
-        }
-        if(Input.GetKey(KeyCode.D))
-        {
-            transform.Rotate(new Vector3(0,1,0)*Time.deltaTime*step,Space.Self);
+            Debug.DrawRay(transform.position,new Vector3(Mathf.Tan(angle),0,1).normalized*vision,Color.green);
         }
     }
 }
