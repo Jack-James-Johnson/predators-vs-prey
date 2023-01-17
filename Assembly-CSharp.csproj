@@ -45,7 +45,9 @@
      <Compile Include="Assets/Scripts/GameScripts/SliderDisplay.cs" />
      <Compile Include="Assets/Scripts/MenuScripts/MenuSwitcher.cs" />
      <Compile Include="Assets/Scripts/GameScripts/CameraScript.cs" />
+     <Compile Include="Assets/Scripts/MenuScripts/PauseMenuScript.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+     <None Include="Assets/Scripts/scriptResources/nouns.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
      <None Include="Assets/TextMesh Pro/Resources/Fonts &amp; Materials/rubik-2/SIL Open Font License.txt" />

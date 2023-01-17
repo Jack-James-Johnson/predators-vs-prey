@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 15
+  controlID: 1197
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -56,7 +56,7 @@ MonoBehaviour:
   m_SerializedViewNames:
   - UnityEditor.DeviceSimulation.SimulatorWindow
   m_SerializedViewValues:
-  - /Users/jackjohnson/PredatorsVsPrey/Library/PlayModeViewStates/47e39a02bdd0244b2a110aca111b05a4
+  - /Users/jackjohnson/PredatorsVsPrey/Library/PlayModeViewStates/aef1b9e3d7f3843928d4f6e937e460f8
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 16
+  controlID: 1198
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 17
+  controlID: 1199
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,9 +226,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: ba5b0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 38f9ffff3afbfffff4ffffffc85b0000
+      m_ExpandedIDs: f4efffffa0f1ffff58f4ffff6af5ffff2ef9ffff68f9ffff3afbfffff4ffffff8a640000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -271,8 +271,8 @@ MonoBehaviour:
     y: 0
     width: 827.5
     height: 488
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 8}
@@ -378,9 +378,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 67.5, y: 86}
+      snapOffset: {x: -111, y: 26}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 1
       id: Orientation
       index: 0
       layout: 4
@@ -504,9 +504,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1212.2458, y: 346.15005, z: 1550.222}
+    m_Target: {x: 1808.5111, y: -181.122, z: -1768.049}
     speed: 2
-    m_Value: {x: 1212.2458, y: 346.15005, z: 1550.222}
+    m_Value: {x: 1808.5111, y: -181.122, z: -1768.049}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -553,13 +553,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.053690124, y: -0.1025797, z: 0.005540229, w: -0.99327385}
+    m_Target: {x: 0.013910255, y: 0.92190826, z: -0.03319815, w: 0.38576052}
     speed: 2
-    m_Value: {x: -0.05368935, y: -0.102578215, z: 0.005540149, w: -0.99325955}
+    m_Value: {x: 0.013910106, y: 0.92189837, z: -0.033197794, w: 0.38575637}
   m_Size:
-    m_Target: 1410.201
+    m_Target: 1273.4747
     speed: 2
-    m_Value: 1410.201
+    m_Value: 1273.4747
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -574,8 +574,8 @@ MonoBehaviour:
     m_AccelerationEnabled: 1
     m_FieldOfViewHorizontalOrVertical: 60
     m_NearClip: 0.03
-    m_FarClip: 10000
-    m_DynamicClip: 1
+    m_FarClip: 1000000
+    m_DynamicClip: 0
     m_OcclusionCulling: 0
   m_LastSceneViewRotation: {x: -0.00159879, y: 0.9638342, z: -0.005783491, w: -0.26643932}
   m_LastSceneViewOrtho: 0
@@ -652,21 +652,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/jackjohnson/PredatorsVsPrey
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8e5b0000
-    m_LastClickedID: 23438
+    m_SelectedIDs: 9a5b0000
+    m_LastClickedID: 23450
     m_ExpandedIDs: 000000008e5b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -695,7 +695,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008e5b0000
+    m_ExpandedIDs: 000000008e5b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -720,9 +720,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: ba5b0000
+    m_LastClickedInstanceID: 23482
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000000000074590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -798,8 +798,8 @@ MonoBehaviour:
     y: 0
     width: 340.5
     height: 822
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}

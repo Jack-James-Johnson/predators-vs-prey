@@ -14,8 +14,16 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     private void Awake()
     {
-        Instance = this;
-        DontDestroyOnLoad(gameObject);
+        //ensures only one instance of gameManager exists
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if(Instance != this)
+        {
+            Destroy(gameObject);
+        }
 
     }
     public void changeVals()

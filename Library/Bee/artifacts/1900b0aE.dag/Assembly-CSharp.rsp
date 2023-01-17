@@ -351,6 +351,7 @@
 "Assets/Scripts/MenuScripts/ExitGame.cs"
 "Assets/Scripts/MenuScripts/FrameRateSwitcher.cs"
 "Assets/Scripts/MenuScripts/MenuSwitcher.cs"
+"Assets/Scripts/MenuScripts/PauseMenuScript.cs"
 "Assets/Scripts/MenuScripts/SceneLoader.cs"
 -langversion:9.0
 
