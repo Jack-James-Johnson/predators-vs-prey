@@ -4093,6 +4093,7 @@ MonoBehaviour:
   MutationIntensity: 0
   CreatureCap: 0
   HighGraphics: 1
+  state: 0
 --- !u!4 &1233766895
 Transform:
   m_ObjectHideFlags: 0
@@ -5446,7 +5447,7 @@ MonoBehaviour:
   m_MinValue: 1
   m_MaxValue: 100
   m_WholeNumbers: 1
-  m_Value: 1
+  m_Value: 50
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:

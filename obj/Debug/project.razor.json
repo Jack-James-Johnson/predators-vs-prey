@@ -1,4 +1,5 @@
 {
+  "SerializedFilePath": "/Users/jackjohnson/PredatorsVsPrey/obj/Debug/project.razor.json",
   "FilePath": "/Users/jackjohnson/PredatorsVsPrey/Unity.VisualScripting.Shared.Editor.csproj",
   "Configuration": {
     "ConfigurationName": "UnsupportedRazor",
@@ -15,5 +16,5 @@
   },
   "RootNamespace": null,
   "Documents": [],
-  "SerializationFormat": "0.2"
+  "SerializationFormat": "0.3"
 }

@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public float MutationIntensity;
     public int CreatureCap;
     public bool HighGraphics;
+    public stateType state = stateType.MENU;
 
     public static GameManager Instance;
     private void Awake()

@@ -291,7 +291,7 @@
 -r:"/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.2.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
--r:"/Users/jackjohnson/Predators Vs Prey/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"/Users/jackjohnson/PredatorsVsPrey/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/200b0aP.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/200b0aP.dag/Unity.Timeline.ref.dll"
 -r:"Library/Bee/artifacts/200b0aP.dag/Unity.VisualScripting.Core.ref.dll"
@@ -300,11 +300,13 @@
 -r:"Library/Bee/artifacts/200b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GameScripts/CameraScript.cs"
+"Assets/Scripts/GameScripts/CreatureBehaviour.cs"
 "Assets/Scripts/GameScripts/CreatureSpawner.cs"
 "Assets/Scripts/GameScripts/SliderDisplay.cs"
 "Assets/Scripts/MenuScripts/ExitGame.cs"
 "Assets/Scripts/MenuScripts/FrameRateSwitcher.cs"
 "Assets/Scripts/MenuScripts/MenuSwitcher.cs"
+"Assets/Scripts/MenuScripts/PauseMenuScript.cs"
 "Assets/Scripts/MenuScripts/SceneLoader.cs"
 -langversion:9.0
 

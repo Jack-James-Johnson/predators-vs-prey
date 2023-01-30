@@ -6,8 +6,8 @@ using TMPro;
 public class CameraScript : MonoBehaviour
 {
     public Camera mainView;
+    public Canvas canvas;
     public GameObject Stage;
-    public TMP_Text UIText;
     private float height;
     private Vector3 position;
     [SerializeField]
@@ -15,6 +15,7 @@ public class CameraScript : MonoBehaviour
     void Awake()
     {
         height = Stage.transform.localScale.x;
+        
         mainView.orthographicSize = height / 2;
     }
     void Update()
@@ -56,20 +57,19 @@ public class CameraScript : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
         { 
             //Get position of mouse
-            Debug.Log("Left click");
             position = Input.mousePosition;
             //cast a ray to the mouse position
             Ray ray = mainView.ScreenPointToRay(position);
             if(Physics.Raycast(ray, out RaycastHit hit))
             {
-                Debug.Log($"something hit {hit.transform.gameObject.name}");
                 trackObject = hit.transform.gameObject;
-                UIText.text = trackObject.name;
+                trackObject.GetComponent("Creature Behaviour");
+                canvas.GetComponent<DisplayCreatureValues>().ChangeText(trackObject);
             }
             else
             {
                 trackObject = null;
-                UIText.text = "";
+                canvas.GetComponent<DisplayCreatureValues>().HideText();
             }
 
         }

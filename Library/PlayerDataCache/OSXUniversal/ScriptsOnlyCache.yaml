@@ -1,11 +1,14 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CameraScript
+    - CreatureBehaviour
     - CreatureSpawner
     - ExitGame
     - FrameRateSwitcher
     - GameManager
     - MenuSwitcher
+    - PauseMenuScript
     - SceneLoader
     - SliderDisplay
     Unity.Rider.Editor.dll:
@@ -89,17 +92,57 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1582}
+    - Class: 114
+      Script: {instanceID: 2610}
+    - Class: 114
+      Script: {instanceID: 2826}
+    - Class: 114
       Script: {instanceID: 3090}
+    - Class: 114
+      Script: {instanceID: 3108}
+    - Class: 114
+      Script: {instanceID: 3606}
+    - Class: 114
+      Script: {instanceID: 4026}
+    - Class: 114
+      Script: {instanceID: 4456}
+    - Class: 114
+      Script: {instanceID: 4560}
+    - Class: 114
+      Script: {instanceID: 4984}
+    - Class: 114
+      Script: {instanceID: 5118}
+    - Class: 114
+      Script: {instanceID: 5692}
+    - Class: 114
+      Script: {instanceID: 5842}
+    - Class: 114
+      Script: {instanceID: 6164}
+    - Class: 114
+      Script: {instanceID: 6284}
+    - Class: 114
+      Script: {instanceID: 7664}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Main Menu.unity:
     - Class: 1
@@ -122,8 +165,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -139,35 +180,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3108}
     - Class: 114
-      Script: {instanceID: 4024}
+      Script: {instanceID: 4026}
     - Class: 114
-      Script: {instanceID: 4136}
+      Script: {instanceID: 4138}
     - Class: 114
-      Script: {instanceID: 4396}
+      Script: {instanceID: 4398}
     - Class: 114
-      Script: {instanceID: 4556}
-    - Class: 114
-      Script: {instanceID: 4976}
+      Script: {instanceID: 4560}
     - Class: 114
       Script: {instanceID: 4980}
     - Class: 114
-      Script: {instanceID: 5032}
+      Script: {instanceID: 4984}
     - Class: 114
-      Script: {instanceID: 5114}
+      Script: {instanceID: 5036}
     - Class: 114
-      Script: {instanceID: 5438}
+      Script: {instanceID: 5118}
     - Class: 114
-      Script: {instanceID: 5688}
+      Script: {instanceID: 5442}
     - Class: 114
-      Script: {instanceID: 5746}
+      Script: {instanceID: 5692}
     - Class: 114
-      Script: {instanceID: 5838}
+      Script: {instanceID: 5750}
     - Class: 114
-      Script: {instanceID: 6160}
+      Script: {instanceID: 5842}
     - Class: 114
-      Script: {instanceID: 6936}
+      Script: {instanceID: 6164}
     - Class: 114
-      Script: {instanceID: 7204}
+      Script: {instanceID: 6942}
+    - Class: 114
+      Script: {instanceID: 7210}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -385,7 +426,7 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 1dc6902d4e30eb93e360ce00c129168c
+      Hash: 9e50f646bd7ce5e459dcae2ff104d197
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CreatureSpawner
@@ -485,6 +526,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 55124a2168ce725f4031cb800e70906e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenuScript
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -655,7 +702,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: f91778193bc964fd1b6906206e89246b
+      Hash: 38020021258bf958b154cae7080fab3e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SceneLoader
@@ -721,7 +768,7 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: 117bf869c8fde0edef43386263a6cf19
+      Hash: 2a65ee549e87bfacec82097340817980
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -797,6 +844,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: dc4010fe807f238b6b6244056f8ae0c1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CreatureBehaviour
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -973,7 +1026,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 610e82bfab42d7bfe5b0a3e5a609c5e8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CameraScript
@@ -1011,4 +1064,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Main Menu.unity
   - Assets/Scenes/Game State.unity
-  playerPath: /Users/jackjohnson/Predators Vs Prey/PVSP.app
+  playerPath: /Users/jackjohnson/predVsPreyExports/test2.app
