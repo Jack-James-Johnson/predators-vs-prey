@@ -4,22 +4,13 @@ using System.Collections.Generic;
 using UnityEngine;
 public class CreatureBehaviour : MonoBehaviour
 {
-    public enum state
-    {
-        IDLE,
-        CHASING,
-        RUNNING,
-        MULTIPLYING
-    }
     public float vision;
     public float speed;
     public float breed_time;
     public char[] fitness;
+    public CreatureSpawner.JSON_Variables.state currentState = CreatureSpawner.JSON_Variables.state.IDLE;
     private float step = 0.1f;
     private GameManager gameManager;
-    public state currentState = state.IDLE;
-    public string uniqueName;
-    public Vector3 pos;
     void Awake()
     {
         // Give each creature access to the game manager variables

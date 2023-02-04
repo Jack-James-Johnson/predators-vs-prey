@@ -9,6 +9,8 @@ public class PauseMenuScript : MonoBehaviour
     GameManager gameManager;
     public GameObject PauseUI;
     public GameObject cameraControl;
+    public GameObject GameUI;
+    public GameObject SettingsUI;
     void Awake()
     {
         gameManager = GameManager.Instance;
@@ -29,7 +31,11 @@ public class PauseMenuScript : MonoBehaviour
     }
    public void Resume()
     {
+        SettingsUI.SetActive(false);
         PauseUI.SetActive(false);
+        GameUI.SetActive(true);
+        gameManager.GetComponent<AudioSource>().pitch=1f;
+        gameManager.GetComponent<AudioReverbFilter>().enabled=false;
         isGamePaused = false;
         Time.timeScale=currentSpeed;
         cameraControl.gameObject.SetActive(true);
@@ -39,11 +45,21 @@ public class PauseMenuScript : MonoBehaviour
     public void Pause()
     {
         PauseUI.SetActive(true);
+        GameUI.SetActive(false);
+        gameManager.GetComponent<AudioSource>().pitch=0.75f;
+        gameManager.GetComponent<AudioReverbFilter>().enabled=true;
         currentSpeed = Time.timeScale;
         Time.timeScale = 0f;
         isGamePaused = true;
         cameraControl.GetComponent<CameraScript>().enabled = false;
         gameManager.state = GameManager.stateType.PAUSED;
 
+    }
+    public void ReturnToMenu()
+    {
+        SceneLoader switcher = gameObject.AddComponent(typeof(SceneLoader)) as SceneLoader;
+        switcher.SceneToLoad = 0; // Main Menu
+        Resume();
+        switcher.Load();
     }
 }

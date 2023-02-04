@@ -6,11 +6,12 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
 
-    public float AverageFitnessLevel;
-    public float MutationIntensity;
-    public int CreatureCap;
-    public bool HighGraphics;
+    public float AverageFitnessLevel = 50f;
+    public float MutationIntensity = 20f;
+    public float CreatureCap = 20f;
+    public bool HighGraphics = true;
     public stateType state = stateType.MENU;
+    public float MainVolume = 100f;
 
     public static GameManager Instance;
     private void Awake()
@@ -25,19 +26,8 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
     }
-    public void changeVals()
-    {
-        this.AverageFitnessLevel =GameObject.Find("Fitness").GetComponent<Slider>().value;
-        this.CreatureCap = Convert.ToInt32(GameObject.Find("Cap").GetComponent<Slider>().value);
-        this.MutationIntensity =GameObject.Find("Mutation").GetComponent<Slider>().value;
-        
-    }
-    public void toggleGraphics(bool graphics)
-    {
-        this.HighGraphics = graphics;
-    }
+ 
     public enum stateType
     {
         MENU,

@@ -39,35 +39,41 @@ public class CameraScript : MonoBehaviour
                     position = newPosition;
                 }
         }
-        //if desired zoom is both less than the height of stage, and greater than 1
+        // If desired zoom is both less than the height of stage, and greater than 1
         if (mainView.orthographicSize  - Input.mouseScrollDelta.y <= height / 2 && mainView.orthographicSize  - Input.mouseScrollDelta.y >= 1)
         {
             mainView.orthographicSize -= Input.mouseScrollDelta.y;
         }
         else if (mainView.orthographicSize  - Input.mouseScrollDelta.y > height / 2)
         {
+            // If the desired zoom is greater than the stage size, change to max size
             mainView.orthographicSize = height / 2;
         }
         else
         {
+            // If the desired zoom is smaller than what is capable, change to smallest size
             mainView.orthographicSize = 1;
         }
       
-        //if LMB is clicked
+        // If LMB is clicked
         if(Input.GetMouseButtonDown(0))
         { 
-            //Get position of mouse
+            // Get position of mouse
             position = Input.mousePosition;
-            //cast a ray to the mouse position
+            // Cast a ray to the mouse position
             Ray ray = mainView.ScreenPointToRay(position);
+            // If the ray hits a creature
             if(Physics.Raycast(ray, out RaycastHit hit))
             {
+                // Set "trackObject" to the creature clicked
                 trackObject = hit.transform.gameObject;
                 trackObject.GetComponent("Creature Behaviour");
+                // Call the change text function to display attributes of creature
                 canvas.GetComponent<DisplayCreatureValues>().ChangeText(trackObject);
             }
             else
             {
+                // If nothing is clicked, then remove the current creature and hide text
                 trackObject = null;
                 canvas.GetComponent<DisplayCreatureValues>().HideText();
             }

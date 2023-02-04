@@ -37,12 +37,14 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/QuickOutline/Scripts/Outline.cs" />
+     <Compile Include="Assets/Scripts/MenuScripts/GetSavedGames.cs" />
      <Compile Include="Assets/Scripts/GameScripts/ChangeGameSpeed.cs" />
      <Compile Include="Assets/Scripts/GameScripts/CreatureSpawner.cs" />
      <Compile Include="Assets/Scripts/MenuScripts/PauseMenuScript.cs" />
      <Compile Include="Assets/Scripts/MenuScripts/ExitGame.cs" />
      <Compile Include="Assets/Scripts/MenuScripts/SceneLoader.cs" />
      <Compile Include="Assets/Scripts/GameManager.cs" />
+     <Compile Include="Assets/Scripts/MenuScripts/SettingsAdjuster.cs" />
      <Compile Include="Assets/Scripts/MenuScripts/FrameRateSwitcher.cs" />
      <Compile Include="Assets/Scripts/GameScripts/CreatureBehaviour.cs" />
      <Compile Include="Assets/Scripts/GameScripts/DisplayCreatureValues.cs" />
