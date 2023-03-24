@@ -9,6 +9,7 @@ public class DisplayCreatureValues : MonoBehaviour
     public TMP_Text UISpeed;
     public TMP_Text UIVision;
     public TMP_Text UIBreedSpeed;
+    public TMP_Text UISpecies;
 
     public void ChangeText(GameObject creature)
     {
@@ -17,6 +18,7 @@ public class DisplayCreatureValues : MonoBehaviour
         UISpeed.text = $"Speed: {creature_behaviour.speed}";
         UIVision.text = $"Vision: {creature_behaviour.vision}";
         UIBreedSpeed.text = $"Breed Speed: {creature_behaviour.breed_time}";
+        UISpecies.text = creature_behaviour.IsPrey ? "Prey" : "Predator";
     }
     public void HideText()
     {
@@ -24,5 +26,6 @@ public class DisplayCreatureValues : MonoBehaviour
         UIName.text = "";
         UIVision.text = "";
         UIBreedSpeed.text = "";
+        UISpecies.text = "";
     }
 }
